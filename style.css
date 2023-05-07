@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*--------------------- Nav bar-------------------------*/
+.nav-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.logo{
+    width: 40%;
+}
+
+.logo > img{    
+    width: calc(20% - 60px);
+    margin-left: 40px;
+}
+
+.nav-menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.nav-menu-item{
+    list-style: none;
+}
+
+.register-button{
+    width: 20%;
+    text-align: center;
+}
+
+.register-button > button{
+    padding: 3% 5%;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+/*-------------------- Section ------------------------*/
+
+.section{
+    width: 95%;
+    margin: auto;
+}
+
+.section-one,.section-two,.section-three,.section-four{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.left-section{
+    width: 40%;
+}
+
+.right-section{
+    width: 40%;
+}
+
+.main-text{
+    font-size: 28px;
+}
+
+.main-text>p{
+    font-size: 20px;
+}
+
+
+.right-section >img,.left-section>img{
+    width: 85%;
+}
+.first-section,.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
